@@ -1,0 +1,119 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   padding-top: 10px;
+}
+
+
+ul {
+
+}
+
+ul li {
+   list-style: none; 
+   display: inline-block;
+}
+
+ul li a {
+    padding: 10.5em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    margin-left: 3em;
+
+}
+
+ul li a:hover {
+   color: black;
+   background:#616161;
+}
+
+nav {
+   width: 100%;
+   height: 64px;
+   background-color:gray;
+   margin-top: -5px;
+}
+
+body {
+   background-color: #eee;
+   background-image:"";
+}
+
+.heading{
+   font-family: 'Russo One', sans-serif;
+   text-align: center;
+   width: 100%;
+   border-radius: 20px;
+   margin-top: 2em;
+}
+.paragraph1{
+   font-family: 'Oswald', sans-serif;
+   text-align: center;
+   border-radius: 0px 0px 20px 20px;
+   border-width: 3px;
+   border-style: solid;
+   margin: 15px auto;
+   width: 80%;
+   color: #D3D3D3;
+   margin-bottom: 6em;
+   margin-top: 3em;
+   font-size: 130%;
+   padding-right: 10%;
+   background-color: #a7aaad;
+}
+
+.paragraph2{
+   font-family: 'Oswald', sans-serif;
+   text-align: center;
+   border-width: 10px;
+   border-image: linear-gradient(45deg, blue, red);
+   border-style: solid;
+   margin: 15px auto;
+   width: 50%;
+   color: #D3D3D3;
+   margin-bottom: 5em;
+   font-size: 130%;
+   
+
+}
+.paragraph3{
+   font-family: 'Oswald', sans-serif;
+   text-align: center;
+   border-width: 3px;
+   border-style: solid;
+   border-radius: 10px;
+   margin: 15px auto;
+   width: 80%;
+   color: #D3D3D3;
+   margin-top: 3em;
+   font-size: 130%;
+   background-color: #a7aaad;
+
+}
+.image{
+   float: left;
+   height: 300px;
+   width: 250px;
+   color: #D3D3D3;
+   border-width: 3px;
+   border-style: solid;
+   border-radius: 10px;
+   margin-top: 11.4em;
+   margin-left: 4.7em;
+}
+
+.body-1{
+   height: 100vh;
+   background-image: linear-gradient(
+       to right,
+       black 0%,
+       black 50%,
+       #323232 50%,
+       #323232 100%
+   );
+}
